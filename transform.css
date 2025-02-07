@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 214, 240);
+}
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 250px;
+    background-color: white;
+}
+
+.b{
+    height: 125px;
+    width: 125px;
+    background-color: gray;
+    
+}
+
+.t{
+    height: 125px;
+    width: 125px;
+    background-color: rgb(212, 0, 255);
+    opacity: 70%;
+}
+/* ______________________________________ */
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+}
+.t1{
+    transition:  all linear 0.5s ;
+}
+.t1:hover{
+    transform: rotate(45deg);
+}
+
+.t2{
+    transition:  all linear 0.5s ;
+}
+.t2:hover{
+ transform: scaleY(0.7);
+}
+
+.t3{
+    transition:  all linear 0.5s ;
+}
+.t3:hover{
+ transform: scalex(0.7);
+}
+
+.t4{
+    transition:  all linear 0.5s ;
+}
+.t4:hover{
+ transform: scale(2);
+}
+
+.t5{
+    transition:  all linear 0.5s ;
+}
+.t5:hover{
+ transform: scalex(2);
+}
+/* _________________________________________________________________ */
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+}
+
+.t10{
+    transition:  all linear 0.5s ;
+}
+.t10:hover{
+ transform: translateX(100px);
+}
+
+.t9{
+    transition:  all linear 0.5s ;
+}
+.t9:hover{
+ transform: translateX(70px) translateY(50px);
+}
+
+.t8{
+    transition:  all linear 0.5s ;
+}
+.t8:hover{
+ transform: skewy(50deg);
+}
+
+.t7{
+    transition:  all linear 0.5s ;
+}
+.t7:hover{
+ transform: skewx(50deg);
+}
+
+.t6{
+    transition:  all linear 0.5s ;
+}
+.t6:hover{
+ transform: scaleY(3);
+}
+/* ________________________________________________________ */
+
+.row3{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+  
+}
+
+.t11{
+    transition:  all linear 0.5s ;
+}
+.t11:hover{
+ transform: translatey(50px);
+}
+
+.t12{
+    transition:  all linear 0.5s ;
+}
+.t12:hover{
+ transform:skewy(50deg) scale(2) translateX(30px) ;
+}
+
+/* _____________________________________________________________ */
+.row4{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+  
+}
+
+
+.t14{
+    transition:  all linear 0.5s ;
+}
+.t14:hover{
+ transform:  perspective(150px) rotateY(60deg);
+}
+
+.t13{
+    transition:  all linear 0.5s ;
+}
+.t13:hover{
+ transform:  perspective(130px) rotatex(40deg);
+}
+/* ________________________________________________ */
+.row5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+}
+
+.t15{
+    transition:  all linear 0.5s ;
+    transform-origin: right top;
+}
+.t15:hover{
+ transform:  rotate(45deg);
+}
+
+.t16{
+    transition:  all linear 0.5s ;
+    transform-origin: left bottom;
+}
+.t16:hover{
+ transform:  rotate(45deg);
+}
+
+.t17{
+    transition:  all linear 0.5s ;
+   transform-origin: bottom;
+}
+.t17:hover{
+ transform:  perspective(300px) rotateX(50deg);
+}
+
+.t18{
+    transition:  all linear 0.5s ;
+   transform-origin: top;
+}
+.t18:hover{
+ transform:  perspective(300px) rotateX(70deg);
+}
+
+.t19{
+    transition:  all linear 0.5s ;
+   transform-origin: left;
+}
+.t19:hover{
+ transform:  perspective(300px) rotatey(50deg);
+}
+/* ________________________________________________________- */
+.row6{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+}
+
+
+.t24{
+    transition:  all linear 0.5s ;
+   transform-origin: left;
+}
+.t24:hover{
+ transform:  scaleX(1.7);
+}
+
+.t23{
+    transition:  all linear 0.5s ;
+   transform-origin: right;
+}
+.t23:hover{
+ transform:  scaleX(1.7);
+}
+
+.t22{
+    transition:  all linear 0.5s ;
+   transform-origin: left bottom;
+}
+.t22:hover{
+ transform:  scale(2);
+}
+
+.t21{
+    transition:  all linear 0.5s ;
+   transform-origin: right top;
+}
+.t21:hover{
+ transform:  scale(2);
+}
+
+.t20{
+    transition:  all linear 0.5s ;
+   transform-origin: right;
+}
+.t20:hover{
+ transform:  perspective(300px) rotatey(70deg);
+}
+/* _____________________________________________________________ */
+.row7{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    margin-bottom: 9rem;
+}
+
+.t25{
+    transition:  all linear 0.5s ;
+   transform-origin: top;
+}
+.t25:hover{
+ transform:  scaley(2);
+}
+
+
+.t26{
+    transition:  all linear 0.5s ;
+   transform-origin: bottom;
+}
+.t26:hover{
+ transform:  scaley(2);
+}
